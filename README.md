@@ -65,12 +65,20 @@ cd my-app
 # add deps
 npm install web3modal ethers
 # add contract addresses
-mkdir constants
+mkdir constants utils
 touch constants/index.js
+touch utils/addLiquidity.js
+touch utils/removeLiquidity.js
+touch utils/getAmounts.js
+touch utils/swap.js
 # make changes
-code styles/Home.modules.css
+code styles/Home.module.css
 code pages/index.js
 code constants/index.js
+code utils/addLiquidity.js
+code utils/removeLiquidity.js
+code utils/getAmounts.js
+code utils/swap.js
 # run client
 npm run dev
 ```
